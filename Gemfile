@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'capybara'
-gem 'rspec'
+gem 'capybara', group: :test
+gem 'rspec', group: :test
 gem 'rubocop'
-gem 'simplecov'
-gem 'simplecov-console'
+gem 'simplecov', group: :test
+gem 'simplecov-console', group: :test
 gem 'sinatra'
+gem 'pg'
+
+gem "pry", "~> 0.11.3"
