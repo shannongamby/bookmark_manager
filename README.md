@@ -8,13 +8,13 @@ I would like to see a list of bookmarks
 ```
 
 ### Setting up the database
-- Connect to psql on your terminal using the command `psql`
-- Create the database using the psql command `CREATE DATABASE bookmark_manager;`
-- Connect to the database using the pqsl command `\c bookmark_manager;`
+- Instal PostgreSQL
+- To start `psql` type the command `psql postgres` into your terminal
+- Create the database using the `psql` command `CREATE DATABASE bookmark_manager;`
+- Connect to the database using the `pqsl` command `\c bookmark_manager;`
 - Run the query in the file: `01_create_bookmarks_table.sql`
 
 ### Setting up the test database
-- Connect to psql on your terminal using the command `psql`
-- Create the database using the psql command `CREATE DATABASE bookmark_manager_test;`
-- Connect to the database using the pqsl command `\c bookmark_manager_test;`
+- Create the database using the `psql` command `CREATE DATABASE bookmark_manager_test;`
+- Connect to the database using the `pqsl` command `\c bookmark_manager_test;`
 - Run the query in the file: `01_create_bookmarks_table.sql`
